@@ -1,0 +1,100 @@
+/* Body */
+
+body {
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+}
+
+/* Header  */
+header {
+  background-color: #000000;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+@media (min-width: 448px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+}
+
+h3 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 10px;
+}
+
+@media (min-width: 448px) {
+  h3 {
+    font-size: 2rem;
+  }
+}
+
+/* Imagen */
+
+img {
+  max-width: 100%;
+  padding: 20px;
+}
+
+#img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Main */
+
+li {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-top: 50px;
+}
+
+#info {
+  padding: 200 0 10 0;
+}
+
+.sinopsis {
+  font-size: 25px;
+}
+
+/* Frase */
+
+.frase {
+  font-size: 22px;
+  padding-top: 40px;
+}
+
+.autor {
+  font-weight: 600;
+}
+
+/* Footer */
+
+.footer {
+  background-color: black;
+  padding: 10px;
+}
+
+.mas-info {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.link-mas-info {
+  color: rgb(156, 156, 156);
+}
+
+a:visited {
+  color: #1900ff;
+}
